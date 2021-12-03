@@ -1,0 +1,39 @@
+; excludes list
+; one exclude per line
+# lines starting with #, ; or space are ignored
+
+/proc*
+/dev/*
+/sys/*
+/tmp/*
+/run/*
+
+/var/cache/*
+/var/tmp/* 
+/swapfile
+
+/var/lib/libvirt/*
+/var/lib/docker/overlay2/*
+
+/home/mario/.googleearth/Cache/*
+/home/mario/.cache/*
+/home/mario/tmp/*
+
+/home/mario/.config/google-chrome/Default/Service\ Worker/CacheStorage/*
+/home/mario/.config/google-chrome/Default/Service\ Worker/ScriptCache/*
+/home/mario/.config/google-chrome/Default/Application\ Cache/*
+
+/home/mario/.config/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage/*
+/home/mario/.config/BraveSoftware/Brave-Browser/Default/Service Worker/ScriptCache/*
+
+/home/mario/.config/Slack/Service\ Worker/CacheStorage/*
+/home/mario/.config/Slack/Service\ Worker/ScriptCache/*
+/home/mario/.config/Slack/Cache/*
+
+/home/mario/.config/Code/Cache/*
+/home/mario/.config/Code/CachedData/*
+
+/home/mario/.local/share/TelegramDesktop/tdata/user_data/cache/*
+/home/mario/.local/share/TelegramDesktop/tdata/user_data/media_cache/*
+
+
