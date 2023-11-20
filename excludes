@@ -9,7 +9,7 @@
 /run/*
 
 /var/cache/*
-/var/tmp/* 
+/var/tmp/*
 /swapfile
 
 /var/lib/libvirt/*
