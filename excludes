@@ -26,6 +26,9 @@
 /home/mario/.config/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage/*
 /home/mario/.config/BraveSoftware/Brave-Browser/Default/Service Worker/ScriptCache/*
 
+/home/mario/.config/Element/Cache/*
+/home/mario/.config/Element/CachedData/*
+
 /home/mario/.config/Slack/Service\ Worker/CacheStorage/*
 /home/mario/.config/Slack/Service\ Worker/ScriptCache/*
 /home/mario/.config/Slack/Cache/*
@@ -35,5 +38,8 @@
 
 /home/mario/.local/share/TelegramDesktop/tdata/user_data/cache/*
 /home/mario/.local/share/TelegramDesktop/tdata/user_data/media_cache/*
+
+/home/mario/.kube/cache/*
+/home/mario/.minikube/cache/
 
 
