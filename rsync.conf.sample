@@ -1,0 +1,4 @@
+remote_user=<remote-rsync-user>
+remote_host=<remote-rsync-host>
+remote_dir=<remote-rsync-dir>
+

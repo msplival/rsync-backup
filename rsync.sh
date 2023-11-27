@@ -1,5 +1,8 @@
 #!/bin/bash
 
+confFile="rsync.conf"
+
+
 remote_user=mike-backup
 remote_host=192.168.10.2
 remote_dir=backup-buntor
