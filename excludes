@@ -14,17 +14,42 @@
 
 /var/lib/libvirt/*
 /var/lib/docker/overlay2/*
+/var/lib/snapd/cache/*
 
 /home/mario/.googleearth/Cache/*
 /home/mario/.cache/*
 /home/mario/tmp/*
 
-/home/mario/.config/google-chrome/Default/Service\ Worker/CacheStorage/*
-/home/mario/.config/google-chrome/Default/Service\ Worker/ScriptCache/*
-/home/mario/.config/google-chrome/Default/Application\ Cache/*
+/home/mario/.config/google-chrome/*/Service\ Worker/CacheStorage/*
+/home/mario/.config/google-chrome/*/Service\ Worker/ScriptCache/*
+/home/mario/.config/google-chrome/*/Application\ Cache/*
+/home/mario/.config/google-chrome/*/IndexedDB/*
+/home/mario/.config/google-chrome/*/Local Storage/*
+/home/mario/.config/google-chrome/*/Platform Notifications/*
+/home/mario/.config/google-chrome/*/WebStorage/*
+/home/mario/.config/google-chrome/*/WebrtcVideoStats/*
+/home/mario/.config/google-chrome/*/blob_storage/*
 
-/home/mario/.config/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage/*
-/home/mario/.config/BraveSoftware/Brave-Browser/Default/Service Worker/ScriptCache/*
+/home/mario/.config/google-chrome/GrShaderCache/*
+/home/mario/.config/google-chrome/OptimizationHints/*
+/home/mario/.config/google-chrome/PKIMetadata/*
+/home/mario/.config/google-chrome/PrivacySandboxAttestationsPreloaded/*
+
+/home/mario/.config/BraveSoftware/Brave-Browser/*/Service\ Worker/CacheStorage/*
+/home/mario/.config/BraveSoftware/Brave-Browser/*/Service\ Worker/ScriptCache/*
+/home/mario/.config/BraveSoftware/Brave-Browser/*/Application\ Cache/*
+/home/mario/.config/BraveSoftware/Brave-Browser/*/IndexedDB/*
+/home/mario/.config/BraveSoftware/Brave-Browser/*/Local Storage/*
+/home/mario/.config/BraveSoftware/Brave-Browser/*/Platform Notifications/*
+/home/mario/.config/BraveSoftware/Brave-Browser/*/WebStorage/*
+/home/mario/.config/BraveSoftware/Brave-Browser/*/WebrtcVideoStats/*
+/home/mario/.config/BraveSoftware/Brave-Browser/*/blob_storage/*
+
+/home/mario/.config/BraveSoftware/Brave-Browser/GrShaderCache/*
+/home/mario/.config/BraveSoftware/Brave-Browser/OptimizationHints/*
+/home/mario/.config/BraveSoftware/Brave-Browser/PKIMetadata/*
+/home/mario/.config/BraveSoftware/Brave-Browser/PrivacySandboxAttestationsPreloaded/*
+
 
 /home/mario/.config/Element/Cache/*
 /home/mario/.config/Element/CachedData/*
@@ -42,4 +67,5 @@
 /home/mario/.kube/cache/*
 /home/mario/.minikube/cache/
 
+/home/mario/iso/*
 
