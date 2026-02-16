@@ -58,10 +58,10 @@
 /home/mario/.config/Slack/Service\ Worker/ScriptCache/*
 /home/mario/.config/Slack/Cache/*
 
-/home/mario/.config/Code/logs/
+/home/mario/.config/Code/logs/*
 /home/mario/.config/Code/Cache/*
 /home/mario/.config/Code/CachedData/*
-/home/mario/.config/Code/CachedExtensionVSIXs/
+/home/mario/.config/Code/CachedExtensionVSIXs/*
 
 /home/mario/.local/share/TelegramDesktop/tdata/user_data/cache/*
 /home/mario/.local/share/TelegramDesktop/tdata/user_data/media_cache/*
