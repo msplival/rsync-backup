@@ -11,7 +11,7 @@ if [[ $1 == "--dry-run" ]] ; then
 fi
 
 time /usr/bin/rsync \
-    $dry_run -xavP --delete --delete-excluded --numeric-ids \
+    $dry_run -xavPAXH --delete --delete-excluded --numeric-ids \
     --exclude-from=/root/rsync-backup/excludes \
     --password-file=/root/rsync-backup/credential \
     / rsync://${remote_user}@${remote_host}/${remote_dir}
